@@ -1,0 +1,106 @@
+mat-card {
+    margin: 20px auto;
+    padding: 24px;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h2 {
+    margin-bottom: 16px;
+  }
+  
+  h3 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  
+  /* Total expense styling */
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th.mat-header-cell {
+    font-weight: bold;
+    background-color: #f1f1f1;
+    padding: 12px 8px;
+    text-align: left;
+  }
+  
+  td.mat-cell {
+    padding: 10px 8px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+  }
+  
+  /* Status column styles */
+  td.mat-cell span {
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  /* Budget status icons */
+  td.mat-cell span::before {
+    content: '';
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  /* Optional - use emojis or switch to icons later */
+  td.mat-cell span[style*="color: red"] {
+    color: red;
+    font-weight: bold;
+  }
+  
+  td.mat-cell span:not([style*="color: red"]) {
+    color: green;
+  }
+  
+  /* Make the table scrollable on small screens */
+  @media (max-width: 600px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+  
+    thead {
+      display: none;
+    }
+  
+    tr {
+      margin-bottom: 15px;
+      background: #fafafa;
+      padding: 12px;
+      border-radius: 8px;
+    }
+  
+    td {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      flex-basis: 40%;
+    }
+  
+    td.mat-cell {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  

@@ -1,0 +1,90 @@
+/* Style the mat-card elements */
+mat-card {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Make form fields full width */
+  .full-width {
+    width: 100%;
+  }
+  
+  /* Align buttons in form */
+  form button {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Table container */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  /* Table header style */
+  th.mat-header-cell {
+    font-weight: bold;
+    background-color: #f5f5f5;
+  }
+  
+  /* Cell padding */
+  td.mat-cell,
+  th.mat-header-cell {
+    padding: 12px 8px;
+    text-align: left;
+  }
+  
+  /* Action buttons in table */
+  td.mat-cell button {
+    margin-right: 8px;
+  }
+  
+  /* Responsive handling for small screens */
+  @media (max-width: 600px) {
+    mat-card {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+  
+    thead {
+      display: none;
+    }
+  
+    tr {
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  
+    td {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+    }
+  
+    td.mat-cell {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
