@@ -1,10 +1,21 @@
 /* Card layout */
 mat-card {
-    margin: 20px auto;
-    padding: 24px;
-    max-width: 600px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
+  margin: 20px auto;
+  padding: 24px;
+  max-width: 800px;
+  background-color: rgb(112, 181, 181);
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); 
+}
+.small-button {
+  background-color: #569090;
+  color: white;
+  padding: 6px 12px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+}
   
   /* Form header */
   h2 {
@@ -26,7 +37,7 @@ mat-card {
   /* Button spacing */
   button[type="submit"] {
     margin-top: 12px;
-    align-self: flex-start;
+    align-self: flex;
   }
   
   /* Datepicker alignment fix */

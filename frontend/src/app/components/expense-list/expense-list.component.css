@@ -1,9 +1,12 @@
 mat-card {
-    margin: 20px auto;
-    padding: 24px;
-    max-width: 1000px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
+  margin: 20px auto;
+  padding: 24px;
+  max-width: 800px;
+  background-color: rgb(112, 181, 181);
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); 
+}
   
   /* Heading */
   h2 {
