@@ -9,7 +9,6 @@ mat-card {
 }
 
   
-  /* Headings */
   h2 {
     margin-bottom: 16px;
   }
@@ -19,13 +18,11 @@ mat-card {
     margin-bottom: 12px;
   }
   
-  /* Total expense styling */
   p {
     font-size: 1.1rem;
     margin-bottom: 20px;
   }
   
-  /* Table */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -44,21 +41,18 @@ mat-card {
     vertical-align: middle;
   }
   
-  /* Status column styles */
   td.mat-cell span {
     font-weight: 500;
     display: inline-flex;
     align-items: center;
   }
   
-  /* Budget status icons */
   td.mat-cell span::before {
     content: '';
     display: inline-block;
     margin-right: 8px;
   }
   
-  /* Optional - use emojis or switch to icons later */
   td.mat-cell span[style*="color: red"] {
     color: red;
     font-weight: bold;
@@ -68,7 +62,6 @@ mat-card {
     color: green;
   }
   
-  /* Make the table scrollable on small screens */
   @media (max-width: 600px) {
     table,
     thead,

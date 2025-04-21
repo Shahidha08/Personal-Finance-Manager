@@ -1,4 +1,3 @@
-/* Card layout */
 mat-card {
   margin: 20px auto;
   padding: 24px;
@@ -17,35 +16,29 @@ mat-card {
   margin-right: 8px;
 }
   
-  /* Form header */
   h2 {
     margin-bottom: 20px;
   }
   
-  /* General form layout */
   form {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
   
-  /* Ensure all fields take full width */
   .full-width {
     width: 100%;
   }
   
-  /* Button spacing */
   button[type="submit"] {
     margin-top: 12px;
     align-self: flex;
   }
   
-  /* Datepicker alignment fix */
   .mat-form-field {
     vertical-align: middle;
   }
   
-  /* Responsive design */
   @media (max-width: 600px) {
     mat-card {
       margin: 10px;

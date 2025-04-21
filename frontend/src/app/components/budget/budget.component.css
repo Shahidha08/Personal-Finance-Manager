@@ -21,45 +21,38 @@ button[type="submit"],button[type="button"]{
   align-self: flex;
 }
 
-  /* Form styling */
   form {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
   
-  /* Make form fields full width */
   .full-width {
     width: 100%;
   }
   
-  /* Align buttons in form */
   form button {
     margin-top: 10px;
     margin-right: 10px;
   }
   
-  /* Table container */
   table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
   }
   
-  /* Table header style */
   th.mat-header-cell {
     font-weight: bold;
     background-color: #f5f5f5;
   }
   
-  /* Cell padding */
   td.mat-cell,
   th.mat-header-cell {
     padding: 12px 8px;
     text-align: left;
   }
   
-  /* Action buttons in table */
   td.mat-cell button {
     margin-right: 8px;
   }

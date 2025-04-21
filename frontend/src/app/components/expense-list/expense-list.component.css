@@ -8,12 +8,10 @@ mat-card {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); 
 }
   
-  /* Heading */
   h2 {
     margin-bottom: 20px;
   }
   
-  /* Filter fields layout */
   mat-form-field {
     margin-right: 16px;
     min-width: 200px;
@@ -23,12 +21,10 @@ mat-card {
     margin-right: 0;
   }
   
-  /* Full width utility */
   .full-width {
     width: 100%;
   }
   
-  /* Table */
   table {
     width: 100%;
     margin-top: 20px;
@@ -47,12 +43,10 @@ mat-card {
     border-bottom: 1px solid #eee;
   }
   
-  /* Action buttons */
   td.mat-cell button {
     margin-right: 8px;
   }
   
-  /* Responsive adjustments */
   @media (max-width: 768px) {
     mat-card {
       padding: 16px;
